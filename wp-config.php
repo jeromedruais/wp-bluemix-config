@@ -45,6 +45,9 @@ define('WP_ALLOW_REPAIR', true);
 
 /**#@-*/
 
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+
 /**
  * WordPress Database Table prefix.
  *
