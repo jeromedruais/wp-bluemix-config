@@ -95,7 +95,7 @@ if(!get_option('default_plugins_activated')){
 	activate_plugin( 'stops-core-theme-and-plugin-updates/main.php');
 	//activate_plugin( 'wp-bluemix-sendgrid/bluemix-sendgrid.php');
 	//activate_plugin( 'sendgrid-email-delivery-simplified/wpsendgrid.php');
-	//activate_plugin( 'wp-super-cache/wp-cache.php');
+	activate_plugin( 'wp-super-cache/wp-cache.php');
 
 	if(!get_option('_disable_updates')){
   		update_option('_disable_updates', array(
